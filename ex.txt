@@ -1,37 +1,307 @@
 Generated tasks:
-(1,5,12)(4,5,11)(2,6,14)(3,8,12)(5,10,13)
+(2,7,3)(3,9,2)(1,20,3)(4,23,2)
 
 
 Time: 0
-Waiting clients: (1,5,12); (4,5,11); (2,6,14); (3,8,12); (5,10,13);
-Queue 1: Close.
-Queue 2: Close.
-Queue 3: Close.
-Queue 4: Close.
-Queue 5: Close.
-Queue 6: Close.
-Queue 7: Close.
+Waiting clients: (2,7,3); (3,9,2); (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: Close.
 
 Time: 1
-Waiting clients: (1,5,12); (4,5,11); (2,6,14); (3,8,12); (5,10,13);
-Queue 1: Close.
-Queue 2: Close.
-Queue 3: Close.
-Queue 4: Close.
-Queue 5: Close.
-Queue 6: Close.
-Queue 7: Close.
+Waiting clients: (2,7,3); (3,9,2); (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: Close.
 
 Time: 2
-Waiting clients: (1,5,12); (4,5,11); (2,6,14); (3,8,12); (5,10,13);
-Queue 1: Close.
-Queue 2: Close.
-Queue 3: Close.
-Queue 4: Close.
-Queue 5: Close.
-Queue 6: Close.
-Queue 7: Close.
+Waiting clients: (2,7,3); (3,9,2); (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 3
+Waiting clients: (2,7,3); (3,9,2); (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 4
+Waiting clients: (2,7,3); (3,9,2); (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 5
+Waiting clients: (2,7,3); (3,9,2); (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 6
+Waiting clients: (2,7,3); (3,9,2); (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 7
+Waiting clients: (3,9,2); (1,20,3); (4,23,2);
+Queue: 1: (2,7,3);
+Queue: 2: Close.
+
+Time: 8
+Waiting clients: (3,9,2); (1,20,3); (4,23,2);
+Queue: 1: (2,7,2);
+Queue: 2: Close.
+
+Time: 9
+Waiting clients: (1,20,3); (4,23,2);
+Queue: 1: (2,7,1);
+Queue: 2: (3,9,2);
+
+Time: 10
+Waiting clients: (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: (3,9,1);
+
+Time: 11
+Waiting clients: (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 12
+Waiting clients: (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 13
+Waiting clients: (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 14
+Waiting clients: (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 15
+Waiting clients: (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 16
+Waiting clients: (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 17
+Waiting clients: (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 18
+Waiting clients: (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 19
+Waiting clients: (1,20,3); (4,23,2);
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 20
+Waiting clients: (4,23,2);
+Queue: 1: (1,20,3);
+Queue: 2: Close.
+
+Time: 21
+Waiting clients: (4,23,2);
+Queue: 1: (1,20,2);
+Queue: 2: Close.
+
+Time: 22
+Waiting clients: (4,23,2);
+Queue: 1: (1,20,1);
+Queue: 2: Close.
+
+Time: 23
+Waiting clients:
+Queue: 1: (4,23,2);
+Queue: 2: Close.
+
+Time: 24
+Waiting clients:
+Queue: 1: (4,23,2);
+Queue: 2: Close.
+
+Time: 25
+Waiting clients:
+Queue: 1: (4,23,1);
+Queue: 2: Close.
+
+Time: 26
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 27
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 28
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 29
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 30
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 31
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 32
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 33
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 34
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 35
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 36
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 37
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 38
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 39
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 40
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 41
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 42
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 43
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 44
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 45
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 46
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 47
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 48
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 49
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 50
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 51
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 52
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 53
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 54
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 55
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 56
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 57
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 58
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
+
+Time: 59
+Waiting clients:
+Queue: 1: Close.
+Queue: 2: Close.
 
 Avrage waiting time: 0.0
-Avrage service time: 12.4
-Peak hour: 0 with 0 clients. 
+Avrage service time: 2.5
+Peak hour: 9 with 2 clients. 
