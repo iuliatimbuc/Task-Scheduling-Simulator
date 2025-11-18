@@ -24,6 +24,7 @@ public class View extends JFrame {
     private JButton startButton;
 
     private int nrOfServers;
+
     public View(){
         setTitle("Queue Manager");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -169,6 +170,8 @@ public class View extends JFrame {
        add(resultPanel, BorderLayout.CENTER);
 
     }
+
+
     public void updateTime(int time){
         SwingUtilities.invokeLater(()-> timeLabel.setText("Simulation time: "+ time));
     }
@@ -196,14 +199,13 @@ public class View extends JFrame {
         for(int i = 0; i < servers.size(); i++){
             Server server = servers.get(i);
             BlockingDeque<Task> t = server.getTask();
-
             StringBuilder sb = new StringBuilder();
-
             Task current = server.getCurrentTask();
 
             if(current == null && t.isEmpty()){
                 sb.append("CLOSE");
             }else {
+                /// daca exista un task curent il afisam primul, iar dupa afisam task urile din coada
                 if (current != null) {
                     sb.append(current.toString()).append("\n");
 
@@ -215,7 +217,7 @@ public class View extends JFrame {
             int finalI = i;
             SwingUtilities.invokeLater(() -> {
                 if(finalI < queueDisplays.size()){
-                queueDisplays.get(finalI).setText(sb.toString());
+                    queueDisplays.get(finalI).setText(sb.toString());
                 }
             });
         }

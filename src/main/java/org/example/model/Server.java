@@ -15,8 +15,6 @@ public class Server implements Runnable{
         this.waitingPeriod = waitingPeriod;
     }
 
-
-
     ///functie pentru a adauga task uri in blocking queue si a actualiza timpul total de asteptare
     public void addTask(Task newTask){
         tasks.add(newTask);
@@ -43,7 +41,7 @@ public class Server implements Runnable{
     public void run() {
         while(true){
             try{
-                ///asteapta daca lista e goala si asteapta pana un task apare
+                ///asteapta daca coada e goala si asteapta pana un task apare
                 Task currentTask = tasks.takeFirst();
                 this.currentTask = currentTask;
 

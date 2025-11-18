@@ -11,7 +11,7 @@ import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class SimulationManager implements Runnable {
-    /// PARAMETRII CITITI DE UI
+    /// PARAMETRII CITITI DE GUI
     private int timeLimit;
     private int maxProcessingTime;
     private int minProcessingTime;
@@ -46,10 +46,10 @@ public class SimulationManager implements Runnable {
        this.numberOfServers = numberOfServers;
        this.selectionPolicy = selectionPolicy;
        this.view = view;
-        scheduler = new Scheduler(numberOfServers,100);
-        scheduler.changeStrategy(selectionPolicy);
+       scheduler = new Scheduler(numberOfServers,100);
+       scheduler.changeStrategy(selectionPolicy);
 
-        generateNRandomTasks();
+       generateNRandomTasks();
     }
 
     /// generare random de task uri
@@ -114,7 +114,7 @@ public class SimulationManager implements Runnable {
             }
             logl(waiting.toString().trim());
 
-            int index = 1;
+            int index = 1; // index pentru numerotarea cozilor
             for(Server s: scheduler.getServers()){
                 StringBuilder sb = new StringBuilder();
                 sb.append("Queue ").append(index).append(": ");
@@ -151,7 +151,9 @@ public class SimulationManager implements Runnable {
                 view.updateWaitingClients(generatedTask);
                 view.updateQueues(scheduler.getServers());
             }
+
             currentTime++;
+
             try{
                 Thread.sleep(500);
             }catch(InterruptedException e){
@@ -180,6 +182,7 @@ public class SimulationManager implements Runnable {
             view.updateAvgWaitingTime(avgWaiting);
             view.updatePeakHour(peakTime,maxClients);
         }
+
         ///inchidere fisier
         try{
             write.close();

@@ -38,7 +38,7 @@ public class TimeStrategy implements  Strategy{
             }
         }
         if(bestServer != null) {
-           /// calculeaza waitingTime
+           /// calculeaza minim waitingTime
            int waitingTime = 0;
            Task current = bestServer.getCurrentTask();
            if(current != null) {
